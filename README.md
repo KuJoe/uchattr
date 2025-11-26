@@ -8,15 +8,15 @@ This README summarizes key user features, admin/developer notes, setup & run ins
 
 - Install dependencies:
 
-  npm install
+  `npm install`
 
 - Start locally:
 
-  node server.js
+  `node server.js`
 
 - (Optional) Start with PM2 using the included ecosystem file:
 
-  pm2 start ecosystem.config.js
+  `pm2 start ecosystem.config.js`
 
 The server listens for HTTP and WebSocket traffic (see `server.js`). Static client files are served from the `public/` directory.
 
